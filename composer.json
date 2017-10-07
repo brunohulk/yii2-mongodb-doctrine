@@ -1,0 +1,24 @@
+{
+    "name": "brunohulk/yii2-mongodb-doctrine",
+    "description": "Doctrine MongoDB ODM extension for Yii2",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Borges",
+            "email": "bruno@iborges.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "brunohulk\\Yii2MongodbOdm\\": "src/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^1.0.0",
+        "yiisoft/yii2": "^2.0",
+        "alcaeus/mongo-php-adapter": "^1.0",
+        "doctrine/orm": "*",
+        "doctrine/mongodb-odm": "*"
+    }
+}
+
