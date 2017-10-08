@@ -35,7 +35,35 @@ class User extends Controller
     {
         $this->documentManager = Yii::$app->doctrineOdm->getDocumentManager();
     }
-```
 
-For the last step, is necessary to create a documents folder within the common directory in your Yii project, all the
-documents mapped must be here.
+    public function actionCreate()
+    {
+        $user = new User;
+        $user->name = "Bruno";
+
+        $this->documentManager->persist($user);
+        $this->documentManager
+
+    }
+
+```
+For the last step, is necessary to create a `documents` folder within the `common` directory in your Yii project, all the
+documents mapped must be there, the following example is related to previous doc block.
+```php
+/**
+ * @ODM\Document(collection="user")
+ */
+class User
+{
+    /**
+     * @ODM\Id
+     */
+    public $id;
+
+    /**
+     * @ODM\Field(name="name", type="string")
+     */
+    public $name;
+
+}
+```
