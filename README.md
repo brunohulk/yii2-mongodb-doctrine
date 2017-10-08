@@ -68,4 +68,4 @@ class User
 }
 ```
 
-Special thanks for @davidasrocha
+Special thanks for [David Rocha](https://github.com/davidasrocha)

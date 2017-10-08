@@ -1,6 +1,7 @@
 {
     "name": "brunohulk/yii2-mongodb-doctrine",
     "description": "Doctrine MongoDB ODM extension for Yii2",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
