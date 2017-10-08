@@ -67,3 +67,5 @@ class User
 
 }
 ```
+
+Special thanks for @davidasrocha
