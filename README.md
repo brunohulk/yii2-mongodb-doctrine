@@ -19,7 +19,9 @@ params by your customise data:
 'doctrineOdm' => [
     'class' => 'brunohulk\Yii2MongodbOdm\DoctrineODM',
     'dsn' => 'mongodb://mongodb:27017', #DSN string connection
-    'dbname' => 'database_name'  #Database name
+    'dbname' => 'database_name'  #Database name,
+    'documentsDir' => __DIR__ . '/../../documents/', # Directory which stores your mapped collections
+    'runtimeDir' =>  __DIR__ . '/../../runtime/' # The Yii2 runtime dir or other directory to store the Doctrine extra files
 ]
 ```
 
