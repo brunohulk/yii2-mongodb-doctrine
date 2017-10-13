@@ -9,7 +9,7 @@ Doctrine documentation and its better way to deal with embedded documents made i
 Require the library with Composer:
 
 ```
-$ composer require brunohulk/yii2-mongodb-doctrine
+composer require brunohulk/yii2-mongodb-doctrine
 ```
 
 Then, to activate the component, you have to add the follow entry inside the web.php file replacing the default database
