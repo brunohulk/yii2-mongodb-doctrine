@@ -1,7 +1,8 @@
 # Yii2 extension for using MongoDB and Doctrine #
 
-[![Latest Stable Version](https://poser.pugx.org/pugx/badge-poser/version.svg)](https://packagist.org/packages/brunohulk/yii2-mongodb-doctrine)
-[![Downloads](https://poser.pugx.org/pugx/badge-poser/d/total.svg)](https://packagist.org/packages/brunohulk/yii2-mongodb-doctrine)
+[![Latest Stable Version](https://poser.pugx.org/brunohulk/yii2-mongodb-doctrine/v/stable)](https://packagist.org/packages/brunohulk/yii2-mongodb-doctrine)
+[![Downloads](https://poser.pugx.org/brunohulk/yii2-mongodb-doctrine/downloads)](https://packagist.org/packages/brunohulk/yii2-mongodb-doctrine)
+[![License](https://poser.pugx.org/brunohulk/yii2-mongodb-doctrine/license)](https://packagist.org/packages/brunohulk/yii2-mongodb-doctrine)
 
 ## About ##
 This component was created with the purpose of allowing us to use all benefits of the Doctrine in Yii2 using the
