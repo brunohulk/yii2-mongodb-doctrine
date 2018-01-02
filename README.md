@@ -48,7 +48,7 @@ class User extends Controller
         $user->name = "Bruno";
 
         $this->documentManager->persist($user);
-        $this->documentManager
+        $this->documentManager->flush();
 
     }
 
